@@ -1,0 +1,18 @@
+ktor:
+    application:
+        modules:
+            - com.paitor.practice.ApplicationKt.module
+    deployment:
+        port: 8080
+        host: "0.0.0.0"
+jwt:
+  secret: $PRACTICE_JWT_SECRET
+  issuer: "http://0.0.0.0:8080/"
+  audience: "http://0.0.0.0:8080/api"
+db:
+  host: "localhost"
+  database: "practice"
+  username: "postgres"
+  password: $DB_PASSWORD
+gigachat:
+  secret_key: $GIGACHAT_SECRET_KEY

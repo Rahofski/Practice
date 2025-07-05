@@ -1,0 +1,77 @@
+import type { Course } from '../Entity/Course'
+
+export const Courses: Course[] = [
+  {
+    id: 1,
+    name: 'Introduction to Computer Science',
+    description: 'An introductory course on computer science principles.',
+    semester: 1,
+    teacher: 'Dr. Alice Smith',
+    imageUrl: 'https://dl.spbstu.ru/pluginfile.php/24874/course/overviewfiles/diskretka.jpg',
+  },
+  {
+    id: 2,
+    name: 'Data Structures and Algorithms',
+    description: 'A comprehensive course on data structures and algorithms.',
+    semester: 2,
+    teacher: 'Prof. Bob Johnson',
+    imageUrl: 'https://avatars.mds.yandex.net/i?id=de93960c257797636af58f83dc5eeb630f14e7cb-12626523-images-thumbs&n=13',
+  },
+  {
+    id: 3,
+    name: 'Web Development',
+    description: 'Learn how to build modern web applications.',
+    semester: 3,
+    teacher: 'Dr. Carol Williams',
+    imageUrl: 'https://habrastorage.org/getpro/habr/upload_files/c6c/c3e/2cf/c6cc3e2cf600cb36591ebe55fb459fa8.jpg',
+  },
+  {
+    id: 4,
+    name: 'Web Development',
+    description: 'Learn how to build modern web applications.',
+    semester: 3,
+    teacher: 'Dr. Carol Williams',
+    imageUrl: 'https://i.pinimg.com/originals/bc/ab/13/bcab13406dd2c8e105e40858eebc6ac8.jpg',
+  },
+
+  {
+    id: 5,
+    name: 'Web Development',
+    description: 'Learn how to build modern web applications.',
+    semester: 3,
+    teacher: 'Dr. Carol Williams',
+    imageUrl: 'https://avatars.mds.yandex.net/i?id=94f0b6ad29d8543f0820d88e1a08a24e14202a5b-8183963-images-thumbs&n=13',
+  },
+  {
+    id: 6,
+    name: 'Цифровая культура',
+    description: 'Основы работы с компьютером',
+    semester: 3,
+    teacher: 'Dr. Carol Williams',
+    imageUrl: 'https://pic.rutubelist.ru/video/2024-10-31/53/b7/53b796c8c959f029285045d2e75355aa.jpg',
+  },
+  {
+    id: 7,
+    name: 'Философия',
+    description: 'Философия: начало и почему не бесполезный предмет',
+    semester: 3,
+    teacher: 'Преподаватель Ы. Ы.',
+    imageUrl: 'https://avatars.mds.yandex.net/i?id=f6ec1b573f79323e76f30fad1c046a3adcc48850-5354766-images-thumbs&n=13',
+  },
+  {
+    id: 8,
+    name: 'Программирование операционных систем',
+    description: 'Learn how to build modern web applications.',
+    semester: 3,
+    teacher: 'Туральчук Константин Анатольевич',
+    imageUrl: 'https://avatars.mds.yandex.net/i?id=94f0b6ad29d8543f0820d88e1a08a24e14202a5b-8183963-images-thumbs&n=13',
+  },
+  {
+    id: 9,
+    name: 'Алгоритмы и структуры данных',
+    description: 'Курс продвинутого изучения программирования и алгоритмов',
+    semester: 3,
+    teacher: 'Пак Вадим Геннадьевич',
+    imageUrl: 'https://stihi.ru/pics/2020/11/29/9076.jpg',
+  },
+]
